@@ -3,11 +3,23 @@
 <h2>实时视频流检测</h2>
 <img src="{{ url_for('video_feed') }}" alt="video stream">
 
-<h3>实时统计</h3>
-<p>保存帧数：{{ saved_images }}</p>
+<h3>实时汇总信息</h3>
+<ul>
+  <li>累计保存画面数量：{{ saved_images }}</li>
+  <li>检测到未戴安全帽人次：{{ unsafe_total }}</li>
+</ul>
+
+<h4>各类检测数量</h4>
 <ul>
   {% for cls, count in class_counter.items() %}
     <li>{{ cls }}: {{ count }}</li>
   {% endfor %}
+</ul>
+
+<h4>YOLO 参数信息</h4>
+<ul>
+  <li>模型路径: {{ yolo_params.model_path }}</li>
+  <li>置信度阈值: {{ yolo_params.conf }}</li>
+  <li>类别总数: {{ yolo_params.num_classes }}</li>
 </ul>
 {% endblock %}

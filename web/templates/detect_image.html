@@ -1,18 +1,25 @@
 {% extends 'base.html' %}
 {% block content %}
 <h2>上传图片进行检测</h2>
-<form method="post" enctype="multipart/form-data">
-  <input type="file" name="image_file" required>
-  <button type="submit">上传并检测</button>
-</form>
 
-{% if image %}
-  <h3>检测结果</h3>
-  <img src="{{ url_for('static', filename='results/' + image.split('/')[-1]) }}" alt="检测结果">
+{% if detected_image_url %}
+  <h3>原始图片：</h3>
+  <img src="{{ orig_image_url }}" alt="原图" style="max-width: 400px;">
+  <h3>检测结果：</h3>
+  <img src="{{ detected_image_url }}" alt="检测结果" style="max-width: 400px;">
+
+  <h4>检测到的类别及数量：</h4>
   <ul>
-    {% for d in details %}
-      <li>{{ d.cls }}: {{ d.conf }}</li>
+    {% for cls, count in class_counts.items() %}
+      <li>{{ cls }}: {{ count }}</li>
     {% endfor %}
   </ul>
+
+  <p>置信度阈值: {{ conf }}</p>
+{% else %}
+  <form method="post" enctype="multipart/form-data">
+    <input type="file" name="image_file" accept="image/*" required>
+    <button type="submit">上传并检测</button>
+  </form>
 {% endif %}
 {% endblock %}

@@ -1,12 +1,40 @@
 {% extends 'base.html' %}
 {% block content %}
 <h2>检测记录</h2>
-<ul>
+
+<form method="post" action="{{ url_for('delete_all_records') }}">
+  <button type="submit" onclick="return confirm('确定要删除所有记录吗？')">🗑 全部删除</button>
+</form>
+
+{% if images %}
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 20px;">
   {% for img in images %}
-    <li>
-      <p>{{ img.filename }} ({{ img.time }})</p>
-      <img src="{{ url_for('static', filename='../' + img.path) }}" alt="{{ img.filename }}" style="max-width: 300px;">
-    </li>
+  <div>
+    <img src="{{ url_for('frames_static', filename=img.filename) }}"
+         alt="{{ img.filename }}"
+         style="width: 100%; cursor: pointer;"
+         onclick="showDialog('{{ url_for('frames_static', filename=img.filename) }}')">
+    <small>{{ img.filename }}<br>{{ img.time }}</small>
+  </div>
   {% endfor %}
-</ul>
+</div>
+{% else %}
+<p>暂无记录</p>
+{% endif %}
+
+<dialog id="imgDialog" style="border: none;">
+  <form method="dialog">
+    <button style="float:right;">关闭</button>
+  </form>
+  <img id="dialogImage" src="" style="max-width: 100%;">
+</dialog>
+
+<script>
+  function showDialog(imgUrl) {
+    const dialog = document.getElementById("imgDialog");
+    const dialogImage = document.getElementById("dialogImage");
+    dialogImage.src = imgUrl;
+    dialog.showModal();
+  }
+</script>
 {% endblock %}
