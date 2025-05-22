@@ -1,0 +1,55 @@
+# =====================
+# Python Flask 项目通用忽略规则
+# =====================
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.conda/
+
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志和数据库文件
+*.log
+*.db
+*.sqlite
+
+# 配置文件（建议将敏感信息放在单独的配置文件中并忽略）
+config.py
+.env
+.flaskenv
+
+# 开发工具生成的文件
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# 测试报告
+htmlcov/
+.coverage
+.coverage.*
+
+# 打包相关
+dist/
+build/
+*.egg-info/
+
+# =====================
+# 自定义规则
+# =====================
+# 排除所有 JPG 图片（大小写敏感）
+*.jpg
+*.JPG
+
+# 如果你还需要排除其他图片格式，可以添加：
+# *.png
+# *.gif
+# *.svg
+# *.webp
