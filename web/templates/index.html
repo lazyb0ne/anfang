@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>YOLOv8 实时检测</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #video-container { position: relative; display: inline-block; }
+        #stats { margin-top: 10px; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>YOLOv8n 实时检测</h1>
+    <div id="video-container">
+        <img id="video_feed" src="{{ url_for('video_feed') }}" width="640" height="480" />
+    </div>
+    <br />
+    <button id="toggleBtn">开启检测</button>
+    <div id="stats">
+        <p>FPS: <span id="fps">0</span></p>
+        <p>推理时间(ms): <span id="inf_time">0</span></p>
+        <p>当前检测物体数: <span id="det_count">0</span></p>
+        <p>最后保存路径: <span id="last_save">无</span></p>
+    </div>
+
+<script>
+let detectionEnabled = false;
+const toggleBtn = document.getElementById("toggleBtn");
+
+toggleBtn.onclick = () => {
+    detectionEnabled = !detectionEnabled;
+    fetch("/toggle_detection", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ enable: detectionEnabled })
+    })
+    .then(res => res.json())
+    .then(data => {
+        detectionEnabled = data.detection_enabled;
+        toggleBtn.textContent = detectionEnabled ? "关闭检测" : "开启检测";
+    });
+};
+
+function fetchStats() {
+    fetch('/stats')
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("fps").textContent = data.fps.toFixed(1);
+        document.getElementById("inf_time").textContent = data.inference_time.toFixed(1);
+        document.getElementById("det_count").textContent = data.last_detection_count;
+        document.getElementById("last_save").textContent = data.last_save_path || "无";
+    });
+}
+
+setInterval(fetchStats, 1000);
+</script>
+
+</body>
+</html>

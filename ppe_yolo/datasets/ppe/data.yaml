@@ -1,0 +1,8 @@
+# datasets/ppe/data.yaml
+
+path: ./datasets/ppe
+train: images/train
+val: images/val
+
+names:
+  - helmet
