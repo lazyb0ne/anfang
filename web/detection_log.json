@@ -5326,5 +5326,6771 @@
         "conf": 0.572
       }
     ]
+  },
+  {
+    "time": "2025-05-22T21:30:47.846808",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.839
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:47.957848",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.588
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.078968",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.692
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.548
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.193935",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.712
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.634
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.297205",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.726
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.394246",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.6
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.503952",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.652
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.604087",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.635
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.718139",
+    "objects": []
+  },
+  {
+    "time": "2025-05-22T21:30:48.811500",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.514
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:48.914642",
+    "objects": []
+  },
+  {
+    "time": "2025-05-22T21:30:49.025781",
+    "objects": []
+  },
+  {
+    "time": "2025-05-22T21:30:49.134426",
+    "objects": []
+  },
+  {
+    "time": "2025-05-22T21:30:49.220733",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.584
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.330483",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.541
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.434026",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.58
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.571
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.537692",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.581
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.644577",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.654
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.738553",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.606
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.860270",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.577
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:49.948494",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.641
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.607
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.060655",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.721
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.506
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.151747",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.659
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.252915",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.769
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.538
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.358486",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.785
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.664
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.462241",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.769
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.71
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.563926",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.577
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.665711",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.848
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.588
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.769756",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.801
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.622
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.881756",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.708
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.609
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:50.978270",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.701
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.611
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.079372",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.721
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.615
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.180913",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.793
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.571
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.284783",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.765
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.611
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.390178",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.774
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.558
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.492371",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.779
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.587
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.596905",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.674
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.663
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.699849",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.729
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.657
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.806265",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.814
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.659
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:51.904959",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.775
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.69
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.016846",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.764
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.672
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.616
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.119102",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.7
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.682
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.216325",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.72
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.536
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.325379",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.709
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.522
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.430324",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.829
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.559
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.542593",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.745
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.668558",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.691
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.774849",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.668
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.548
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.875259",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.652
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:52.975388",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.596
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.079288",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.608
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.181137",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.608
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.519
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.287101",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.613
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.605
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.391017",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.628
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.493869",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.613
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.595547",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.665
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.513
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.699079",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.617
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.804936",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.64
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.529
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:53.906191",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.668
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.528
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:54.009405",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.699
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.533
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:54.123079",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.651
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:54.217246",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.722
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:54.321862",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.72
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.501
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:30:54.423781",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.616
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "filename": "0ac1e822-7ed1-4478-9a21-9491c1a3e4d1.jpeg",
+    "saved_path": "static/results/images/0ac1e822-7ed1-4478-9a21-9491c1a3e4d1.jpeg",
+    "time": "2025-05-22T21:31:20.599656",
+    "objects": [
+      {
+        "class": "Hardhat",
+        "conf": 0.883
+      },
+      {
+        "class": "Hardhat",
+        "conf": 0.807
+      },
+      {
+        "class": "Hardhat",
+        "conf": 0.722
+      },
+      {
+        "class": "Hardhat",
+        "conf": 0.569
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:41.596778",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:41.730616",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.935
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:41.850284",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:41.946089",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.931
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.045120",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.961
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.148077",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.917
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.249056",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.931
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.352709",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.458020",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.559427",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.926
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.671852",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.961
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.772084",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.966
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.871897",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.965
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:42.979293",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.967
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.077408",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.968
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.178756",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.959
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.281392",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.387546",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.589
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.493009",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.588
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.591977",
+    "objects": []
+  },
+  {
+    "time": "2025-05-22T21:31:43.696202",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.805479",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:43.904007",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.96
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.008282",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.113079",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.918
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.211437",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.317379",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.851
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.475623",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.567
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.656484",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.678
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.776590",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.615
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.885510",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.664
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:44.981330",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.615
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:45.080291",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.616
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:45.952216",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.661
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.106674",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.775
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.232935",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.791
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.387512",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.824
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.594385",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.703
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.750571",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.735
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.869265",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.68
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:46.994529",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.645
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.157080",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.51
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.284626",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.825
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.416404",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.86
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.581742",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.947
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.703282",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:47.799000",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.873
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.001945",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.181034",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.293151",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.439410",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.559517",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.661426",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.764153",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.862402",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:48.987829",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.122109",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.863
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.258630",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.854
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.444025",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.85
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.724044",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.775
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.828926",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.819
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:49.936451",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.766
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:50.043400",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.876
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.538
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:50.789011",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.833
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:50.906296",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.82
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.042015",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.784
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.138036",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.801
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.243378",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.807
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.363431",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.808
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.481988",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.845
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.580782",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.84
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.683821",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.787646",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.816
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.891589",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.838
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:51.998330",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.845
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.100557",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.763
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.202945",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.814
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.304370",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.759
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.408874",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.803
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.519661",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.849
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.582
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.620460",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.837
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.508
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.726207",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.862
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.821261",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.839
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:52.924579",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.773
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.031629",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.82
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.133295",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.854
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.237112",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.835
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.337946",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.805
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.445549",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.75
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.507
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.558010",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.774
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.650678",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.724
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.755451",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.756
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.855229",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.801
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:53.963040",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.068031",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.808
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.170108",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.371925",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.489566",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.818
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.624799",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.729
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.719378",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.821685",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:54.923982",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.035880",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.136396",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.239271",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.861
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.341575",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.931
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.444785",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.549133",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.693789",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.901
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.793852",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.888852",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.807
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:55.994400",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.095771",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.85
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.201841",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.886
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.303500",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.866
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.425635",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.833
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.548002",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.861
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.654142",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.867
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.752482",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:56.860933",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.036115",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.886
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.166263",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.898
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.268443",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.378575",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.507589",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.901
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.609703",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.866
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.713680",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.829
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.814880",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.81
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:57.934861",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.148662",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.265812",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.368104",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.472251",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.915
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.575750",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.675712",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.888
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.780082",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.901
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.883632",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.921
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:58.996072",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:59.092822",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:59.337014",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.938
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:59.606482",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:59.808931",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:31:59.919418",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.021202",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.903
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.133739",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.240448",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.337710",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.439848",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.934
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.541094",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.953
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.646620",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.947
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.745133",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.902
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.844894",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:00.949397",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.053313",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.946
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.155461",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.271921",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.915
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.364708",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.946
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.465303",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.574410",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.674817",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.956
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.775430",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.955
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.882336",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:01.982901",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.956
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.091044",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.957
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.189438",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.301099",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.962
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.395982",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.961
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.508952",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.961
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.612781",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.954
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.745256",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.958
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.842804",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.965
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:02.945176",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.972
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.053218",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.957
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.159247",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.263948",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.954
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.365778",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.947
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.474276",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.932
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.602013",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.714784",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.943
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.806459",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.951
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:03.912061",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.939
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.015061",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.118523",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.962
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.232673",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.954
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.333548",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.427393",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.955
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.544021",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.953
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.641570",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.951
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.738526",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.953
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.840528",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.943
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:04.956297",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.956
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.081608",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.938
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.182942",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.289076",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.392149",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.951
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.496385",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.613179",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.738085",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.94
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.838804",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.941
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:05.942616",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.054468",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.935
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.157031",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.257503",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.361656",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.938
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.469621",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.934
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.599814",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.938
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.717824",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.948
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.838348",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:06.942844",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.937
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.044821",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.154071",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.966
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.258008",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.955
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.355122",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.95
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.457931",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.562010",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.664409",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.786170",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.954
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:07.914012",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.935
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.025003",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.154958",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.943
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.257853",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.915
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.388011",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.939
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.492089",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.958
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.594361",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.953
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.696183",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.943
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.810937",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.95
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:08.907450",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:09.009275",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.953
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:09.121931",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.949
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:09.262523",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.952
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:09.403210",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.937
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:09.534326",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:10.410844",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.945
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:10.535163",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:10.660225",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.926
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:10.765802",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:10.873394",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.016927",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.932
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.144256",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.245972",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.349350",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.463932",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.562564",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.660207",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.764312",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.939
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.867873",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.933
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:11.969581",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.074872",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.938
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.177486",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.278147",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.380501",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.487470",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.588422",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.931
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.696964",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.897
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.810026",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.862
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:12.932844",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.855
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.045355",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.75
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.188556",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.797
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.320469",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.844
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.420057",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.854
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.526239",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.886
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.623603",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.731879",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.881
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.863012",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.88
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:13.971684",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.882
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.113299",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.253528",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.383422",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.483355",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.590794",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.692201",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.795796",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:14.898889",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.001920",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.104394",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.897
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.208824",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.400360",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.522025",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.855
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.622975",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.904
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.737404",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.943
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.868162",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:15.967161",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.892
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.069246",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.862
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.171569",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.859
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.274194",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.869
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.380394",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.875
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.529815",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.862
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.658378",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.87
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.791971",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.897
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:16.896398",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.044871",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.171417",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.280455",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.872
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.377142",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.479626",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.902
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.593388",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.888
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.724907",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.823006",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.89
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:17.940574",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.884
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.072721",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.211380",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.839
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.306406",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.821
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.410431",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.882
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.513367",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.855
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.623704",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.819600",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.873
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:18.942007",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.133333",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.245297",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.381920",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.886
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.521554",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.888
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.654894",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.852
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:19.793847",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.797
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.009675",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.804
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.139167",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.766
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.283419",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.672
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.414525",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.582
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.561427",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.545
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.687929",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.628
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.825512",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.75
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:20.964127",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.711
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.147908",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.826
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.273625",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.853
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.420403",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.794
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.555235",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.86
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.686740",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.859
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.838216",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.868
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:21.978557",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.883
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.100005",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.869
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.249831",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.376989",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.876
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.511586",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.821
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.668659",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.791068",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.86
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:22.926136",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.863
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.083596",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.823
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.209519",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.845
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.342762",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.877
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.495916",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.843
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.619940",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.857
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.753513",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.853
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:23.894020",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.873
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:24.034678",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.811
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:24.164588",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.79
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:24.332871",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.827
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:24.483321",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.729
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:25.046924",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.822
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:25.688590",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.783
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:25.867820",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.742
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.044928",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.782
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.181244",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.788
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.367920",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.875
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.549874",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.778
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.703561",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.742
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.868887",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.807
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:26.988246",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.806
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.093240",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.828
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.199641",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.814
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.337629",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.761
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.474550",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.807
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.611851",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.758
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.753243",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.701
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.883889",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.832
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:27.995527",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.849
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.213063",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.332731",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.812
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.470124",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.843
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.610146",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.848
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.760248",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.828
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:28.930534",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.862
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.054148",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.841
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.201041",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.868
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.328620",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.829
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.474663",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.87
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.605428",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.892
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.740476",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.842
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:29.923898",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.793
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.057274",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.888
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.195603",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.832
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.332840",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.798
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.465048",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.809
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.584343",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.809
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.706981",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.805
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.844791",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.842
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:30.952198",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.872
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.101749",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.947
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.228480",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.901
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.362233",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.626
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.505652",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.649452",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.782198",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:31.914886",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:32.204224",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:32.342612",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:32.471048",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:32.607628",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:33.562690",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.941
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:33.714251",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.864
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:33.849503",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:33.999450",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.121350",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.883
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.252844",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.420372",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.939
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.538405",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.914
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.669061",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.884
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.805557",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.854
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:34.941353",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.081912",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.216108",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.479569",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.918
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.619135",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.835
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.792461",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.847
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:35.946513",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.696
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.089213",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.819
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.321455",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.868
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.469047",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.618188",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.771673",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.861
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:36.908691",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.839
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.044540",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.864
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.183369",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.847
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.332907",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.853
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.465622",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.879
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.601573",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.883
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.750236",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:37.913130",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.843
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.071400",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.852
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.217576",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.353395",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.573588",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.749932",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.874
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:38.889789",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.868
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.019359",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.814
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.169857",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.805
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.335439",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.808
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.518574",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.755
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.668164",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.766
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.808511",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.645
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:39.948431",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.759
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.089358",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.777
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.215829",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.823
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.353783",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.897
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.497636",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.766877",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.804
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:40.916171",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.685
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.047511",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.809
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.208056",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.774
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.369771",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.843
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.501026",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.757
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.635780",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.629
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.771629",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.746
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:41.907731",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.847
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.045539",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.852
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.179949",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.825
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.323384",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.735
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.457361",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.764
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.598425",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.735784",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:42.872881",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.813
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.013058",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.833
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.147498",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.837
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.286502",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.84
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.431484",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.848
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.558777",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.863
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.696403",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.876
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.834236",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.89
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:43.982260",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.8
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.115719",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.803
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.251864",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.812
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.399887",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.778
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.576471",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.772
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.742087",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.779
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:44.907476",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.048297",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.867
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.189894",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.808
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.327609",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.462674",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.915
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.514
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.675323",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.932
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.612
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:45.896141",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.924
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.635
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.097263",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.618
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.263601",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.456549",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.915
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.655172",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.935
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.812383",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.95
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:46.976644",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.110333",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.247517",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.533
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.390005",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.922
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.527722",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.926
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.668070",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.921
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:47.889405",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.914
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.063019",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.533
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.223221",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.53
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.389375",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.893
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.559858",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.866
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.707211",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.872
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:48.872049",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.026007",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.874
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.190552",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.353485",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.897
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.494069",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.86
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.669036",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.889
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.834325",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.89
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:49.971715",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.94
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.115035",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.306124",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.519
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.456977",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.904
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.588851",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.732855",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.917
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:50.902975",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.087564",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.843
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.267785",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.879
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.441714",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.595596",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.636
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.770560",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.63
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:51.946442",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.865
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.708
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.111241",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.87
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.72
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.295235",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.869
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.655
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.471526",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.625
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.640053",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.809
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.812421",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:52.977160",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.142652",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.917
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.287006",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.89
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.455968",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.643431",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.891
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.801165",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.914
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:53.973612",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.898
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:54.144185",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:54.423026",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.894
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:54.622435",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.863
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:54.818328",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.878
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:54.980287",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.903
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:55.145865",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:55.318695",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:55.483162",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:55.666714",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.894
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:55.832874",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:56.028032",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.944
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:56.178271",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:56.350407",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:56.524556",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.93
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:56.696537",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.020359",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.918
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.558
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.249211",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.927
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.431000",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.914
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.51
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.601141",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.523
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.807257",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.854
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:57.985456",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:58.256194",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.9
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.611
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:58.487794",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.928
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.563
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:58.733098",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.94
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.518
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:59.007323",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.922
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.531
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:59.276704",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:59.469720",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:59.661999",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.936
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:32:59.832570",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.013629",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.186673",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.522
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.352936",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.922
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.528780",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.918
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.712730",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.887
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:00.903779",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.912
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.077117",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.834
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.246933",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.852
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.422900",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.867
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.590730",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.837
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.800869",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.851
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:01.983327",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:02.184803",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.517
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:02.350314",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:02.536935",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.921
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:02.730284",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.851
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:02.899151",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.874
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:03.091064",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.917
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:03.285427",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.923
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:03.508449",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.902
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:03.689216",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:03.867653",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:04.042274",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.834
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:04.222383",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.803
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:04.384518",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.907
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.517
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:04.658852",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.895
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.523
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:04.827103",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.931
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:05.004900",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.919
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:05.210736",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:05.401071",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:05.589889",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:05.795703",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.917
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:06.000708",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.939
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:06.182521",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:06.395937",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.88
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:06.622544",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.927
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.642
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:06.837686",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.869
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.684
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.049096",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.782
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.633
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.242179",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.838
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.409447",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.834
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.586462",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.825
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.774418",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.86
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.675
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:07.970163",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.848
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:08.187164",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.894
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.624
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:08.375596",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.846
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:08.550179",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.665
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:08.717682",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.918
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.678
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:08.914099",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:09.106821",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.872
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:09.324876",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.902
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.566
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:09.539731",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.888
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.592
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:09.741675",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.937
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.545
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:09.937166",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.913
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.515
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:10.152797",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.922
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.549
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:10.350009",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.592
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:10.559800",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.526
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:10.756566",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.903
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:10.963683",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.916
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:11.146176",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.942
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:11.354504",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.929
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.504
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:11.554938",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.926
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.519
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:11.755959",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:11.962020",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:12.169821",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.925
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:12.396076",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.92
+      },
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.575
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:12.601208",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:12.873216",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.845
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:13.099211",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.874
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:13.311397",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:13.523050",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:13.736269",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.856
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:13.937097",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.859
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:14.149542",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.861
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:14.344130",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.772
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:14.582202",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.826
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:14.907275",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.876
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:15.138903",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.598
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:16.007701",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.875
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:16.213694",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:16.733162",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.933
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:16.982163",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.937
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:17.286559",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.867
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:17.632010",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.908
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:17.886583",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.904
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:18.112844",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.911
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:18.386391",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:18.690582",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.896
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:18.885346",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:19.124474",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.885
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:19.334521",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.909
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:19.568013",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.906
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:20.201354",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.91
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:20.556808",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.899
+      }
+    ]
+  },
+  {
+    "time": "2025-05-22T21:33:20.840615",
+    "objects": [
+      {
+        "class": "NO-Hardhat",
+        "conf": 0.905
+      }
+    ]
   }
 ]

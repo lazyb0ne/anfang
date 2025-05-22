@@ -1,0 +1,16 @@
+{% include 'navbar.html' %}
+
+<h1>检测记录（图片）</h1>
+<ul>
+  {% for log in logs %}
+  <li>
+    <img src="{{ url_for('static', filename='results/images/' + log.filename) }}" width="200">
+    <p>{{ log.filename }}<br>{{ log.time }}</p>
+    <ul>
+      {% for obj in log.objects %}
+      <li>{{ obj.class }} - {{ obj.conf }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

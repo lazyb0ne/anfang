@@ -1,35 +1,15 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <title>YOLOv8 工地安全检测</title>
-</head>
-<body>
-    <h1>实时视频流（YOLOv8）</h1>
-    <img src="{{ url_for('video_feed') }}" width="800">
+{% include 'navbar.html' %}
 
-    <h2>检测统计信息</h2>
-    <ul>
-        <li>已保存图片数量（Hardhat）：{{ saved_images }}</li>
-        {% for cls, count in class_counter.items() %}
-        <li>{{ cls }}：{{ count }} 次</li>
-        {% endfor %}
-    </ul>
+<h1>YOLOv8 工地安全检测</h1>
+<img src="{{ url_for('video_feed') }}" width="800">
+<h2>统计</h2>
+<ul>
+  <li>Hardhat 检测保存帧数：{{ saved_images }}</li>
+  {% for cls, count in class_counter.items() %}
+  <li>{{ cls }}: {{ count }}</li>
+  {% endfor %}
+</ul>
 
-    <h2>YOLO 模型参数</h2>
-    <ul>
-        {% for key, value in yolo_params.items() %}
-        <li>{{ key }}: {{ value }}</li>
-        {% endfor %}
-    </ul>
-
-    <h2>上传文件进行检测</h2>
-    <form method="POST" action="/upload" enctype="multipart/form-data">
-        <input type="file" name="files[]" multiple>
-        <button type="submit">上传并检测</button>
-    </form>
-
-    <h2>检测记录</h2>
-    <a href="{{ url_for('records') }}">点击查看 JSON 记录</a>
-</body>
-</html>
+<a href="{{ url_for('detect_image') }}">🔍 图片检测</a><br>
+<a href="{{ url_for('detect_video') }}">🎥 视频检测</a><br>
+<a href="{{ url_for('records') }}">📝 检测记录</a>

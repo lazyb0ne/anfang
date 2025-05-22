@@ -1,0 +1,13 @@
+{% include 'navbar.html' %}
+
+<h1>视频检测</h1>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="video" accept="video/*">
+    <button type="submit">上传并检测</button>
+</form>
+
+{% if result %}
+<h2>已检测</h2>
+<p>文件名：{{ result.filename }}</p>
+<p>时间：{{ result.time }}</p>
+{% endif %}
