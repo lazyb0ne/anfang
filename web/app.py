@@ -1,37 +1,49 @@
-from flask import Flask, Response, render_template_string
+from flask import Flask, Response, render_template, request, redirect, url_for
 from ultralytics import YOLO
 import cv2
 import time
 import os
+import json
+from datetime import datetime
+from werkzeug.utils import secure_filename
+from collections import defaultdict
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'static/uploads'
+os.makedirs('frames', exist_ok=True)
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# 加载模型
 model = YOLO("weights/best100.pt")
-
-# 创建保存目录
-os.makedirs("frames", exist_ok=True)
-
-# 摄像头
 cap = cv2.VideoCapture(0)
 
-# 模板页面（显示视频）
-HTML_PAGE = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>YOLOv8 实时视频流</title>
-</head>
-<body>
-    <h1>YOLOv8 视频流检测</h1>
-    <img src="{{ url_for('video_feed') }}" width="800" />
-</body>
-</html>
-"""
+frame_count = 0
+hardhat_frame_count = 0
+class_counter = defaultdict(int)
+detection_log_path = "detection_log.json"
 
-# 视频流生成器
+# 初始化日志文件
+# 初始化日志文件：为空或格式错误也自动修复
+if not os.path.exists(detection_log_path) or os.path.getsize(detection_log_path) == 0:
+    with open(detection_log_path, 'w') as f:
+        json.dump([], f)
+else:
+    # 尝试加载一次，确保文件合法
+    try:
+        with open(detection_log_path, 'r') as f:
+            json.load(f)
+    except json.JSONDecodeError:
+        with open(detection_log_path, 'w') as f:
+            json.dump([], f)
+
+def save_log(data):
+    with open(detection_log_path, 'r+') as f:
+        logs = json.load(f)
+        logs.append(data)
+        f.seek(0)
+        json.dump(logs, f, indent=2)
+
 def gen_frames():
-    frame_count = 0
+    global frame_count, hardhat_frame_count, class_counter
     last_save_time = time.time()
 
     while True:
@@ -39,46 +51,89 @@ def gen_frames():
         if not success:
             break
 
-        # 推理
         results = model.predict(source=frame, conf=0.5, verbose=False)
         result = results[0]
         annotated_frame = result.plot()
 
-        # 每3秒保存一帧
         current_time = time.time()
-        if current_time - last_save_time >= 3:
+        hardhat_detected = False
+        log_entry = {
+            "time": datetime.now().isoformat(),
+            "objects": [],
+        }
+
+        for box in result.boxes:
+            cls_id = int(box.cls[0])
+            conf = float(box.conf[0])
+            cls_name = model.names[cls_id]
+            log_entry["objects"].append({"class": cls_name, "conf": round(conf, 3)})
+
+            class_counter[cls_name] += 1
+            if cls_name.lower() == "hardhat" and conf > 0.5:
+                hardhat_detected = True
+
+        if hardhat_detected and current_time - last_save_time >= 3:
             save_path = f"frames/frame_{frame_count}.jpg"
             cv2.imwrite(save_path, annotated_frame)
             print(f"Saved: {save_path}")
-            last_save_time = current_time
             frame_count += 1
+            hardhat_frame_count += 1
+            last_save_time = current_time
+            log_entry["saved"] = save_path
 
-        # 编码成 JPEG 格式
+        save_log(log_entry)
+
         ret, buffer = cv2.imencode('.jpg', annotated_frame)
         frame = buffer.tobytes()
 
-        # 返回 multipart (MJPEG) 数据
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-
 @app.route('/')
 def index():
-    return render_template_string(HTML_PAGE)
-
+    return render_template('index.html',
+                           saved_images=hardhat_frame_count,
+                           class_counter=dict(class_counter),
+                           yolo_params=model.args)
 
 @app.route('/video_feed')
 def video_feed():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+@app.route('/upload', methods=['POST'])
+def upload():
+    files = request.files.getlist('files[]')
+    for file in files:
+        filename = secure_filename(file.filename)
+        save_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(save_path)
+        run_detection_on_file(save_path)
+    return redirect(url_for('index'))
 
-# 关闭摄像头和窗口（用于调试关闭）
-@app.route('/shutdown')
-def shutdown():
-    cap.release()
-    cv2.destroyAllWindows()
-    return "Shut down."
+def run_detection_on_file(path):
+    img = cv2.imread(path)
+    if img is None:
+        return
+    results = model.predict(source=img, conf=0.5, verbose=False)
+    result = results[0]
+    log_entry = {
+        "time": datetime.now().isoformat(),
+        "source": path,
+        "objects": [],
+    }
+    for box in result.boxes:
+        cls_id = int(box.cls[0])
+        conf = float(box.conf[0])
+        cls_name = model.names[cls_id]
+        class_counter[cls_name] += 1
+        log_entry["objects"].append({"class": cls_name, "conf": round(conf, 3)})
+    save_log(log_entry)
 
+@app.route('/records')
+def records():
+    with open(detection_log_path) as f:
+        logs = json.load(f)
+    return {"records": logs}
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=True)
