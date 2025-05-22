@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "YOLOv8 检测系统" }}</title>
+  <style>
+    nav a { margin-right: 15px; text-decoration: none; color: #0077cc; }
+    nav { margin-bottom: 20px; }
+    img { max-width: 100%; height: auto; }
+    body { font-family: sans-serif; margin: 20px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ url_for('index') }}">🏠 首页</a>
+    <a href="{{ url_for('detect_image') }}">🖼 图片检测</a>
+    <a href="{{ url_for('detect_video') }}">🎥 视频检测</a>
+    <a href="{{ url_for('records') }}">📝 检测记录</a>
+  </nav>
+  {% block content %}{% endblock %}
+</body>
+</html>

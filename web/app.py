@@ -1,155 +1,179 @@
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory
-from flask import Response
-from ultralytics import YOLO
-import cv2
-import time
 import os
-import json
-from datetime import datetime
-from werkzeug.utils import secure_filename
-from collections import defaultdict
+import time
+from flask import Flask, render_template, Response, request, redirect, url_for, jsonify, session
+import cv2
+from ultralytics import YOLO
+from flask import send_from_directory
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
-app.config['RESULT_IMAGE'] = 'static/results/images'
-app.config['RESULT_VIDEO'] = 'static/results/videos'
-os.makedirs('frames', exist_ok=True)
-os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-os.makedirs(app.config['RESULT_IMAGE'], exist_ok=True)
-os.makedirs(app.config['RESULT_VIDEO'], exist_ok=True)
 
 model = YOLO("weights/best100.pt")
-cap = cv2.VideoCapture(0)
 
-frame_count = 0
-hardhat_frame_count = 0
-class_counter = defaultdict(int)
-detection_log_path = "detection_log.json"
+os.makedirs("frames", exist_ok=True)
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-if not os.path.exists(detection_log_path) or os.path.getsize(detection_log_path) == 0:
-    with open(detection_log_path, 'w') as f:
-        json.dump([], f)
-else:
-    try:
-        with open(detection_log_path, 'r') as f:
-            json.load(f)
-    except json.JSONDecodeError:
-        with open(detection_log_path, 'w') as f:
-            json.dump([], f)
+live_stats = {
+    'saved_images': 0,
+    'class_counter': {},
+}
 
-def save_log(data):
-    with open(detection_log_path, 'r+') as f:
-        logs = json.load(f)
-        logs.append(data)
-        f.seek(0)
-        json.dump(logs, f, indent=2)
+def generate_camera_frames():
+    cap = cv2.VideoCapture(0)
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        results = model.predict(source=frame, conf=0.5, verbose=False)
+        result = results[0]
+        annotated = result.plot()
+
+        for r in result.boxes.data.tolist():
+            cls_id = int(r[5])
+            conf = r[4]
+            cls_name = model.names[cls_id]
+            if conf > 0.5:
+                live_stats['class_counter'][cls_name] = live_stats['class_counter'].get(cls_name, 0) + 1
+                if cls_name == 'Hardhat':
+                    filename = f"frames/live_{int(time.time())}.jpg"
+                    cv2.imwrite(filename, annotated)
+                    live_stats['saved_images'] += 1
+
+        ret2, jpeg = cv2.imencode('.jpg', annotated)
+        if not ret2:
+            continue
+        yield (b'--frame\r\nContent-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n')
 
 @app.route('/')
 def index():
     return render_template('index.html',
-                           saved_images=hardhat_frame_count,
-                           class_counter=dict(class_counter),
-                           yolo_params=model.args)
+                           saved_images=live_stats['saved_images'],
+                           class_counter=live_stats['class_counter'])
 
 @app.route('/video_feed')
 def video_feed():
-    return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(generate_camera_frames(),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
-def gen_frames():
-    global frame_count, hardhat_frame_count, class_counter
-    last_save_time = time.time()
-    while True:
-        success, frame = cap.read()
-        if not success:
-            break
-        results = model.predict(source=frame, conf=0.5, verbose=False)
-        result = results[0]
-        annotated_frame = result.plot()
-        current_time = time.time()
-        hardhat_detected = False
-        log_entry = {
-            "time": datetime.now().isoformat(),
-            "objects": [],
-        }
-        for box in result.boxes:
-            cls_id = int(box.cls[0])
-            conf = float(box.conf[0])
-            cls_name = model.names[cls_id]
-            log_entry["objects"].append({"class": cls_name, "conf": round(conf, 3)})
-            class_counter[cls_name] += 1
-            if cls_name.lower() == "hardhat" and conf > 0.5:
-                hardhat_detected = True
-        if hardhat_detected and current_time - last_save_time >= 3:
-            save_path = f"frames/frame_{frame_count}.jpg"
-            cv2.imwrite(save_path, annotated_frame)
-            print(f"Saved: {save_path}")
-            frame_count += 1
-            hardhat_frame_count += 1
-            last_save_time = current_time
-            log_entry["saved"] = save_path
-        save_log(log_entry)
-        ret, buffer = cv2.imencode('.jpg', annotated_frame)
-        frame = buffer.tobytes()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-
-@app.route('/detect/image', methods=['GET', 'POST'])
+@app.route('/detect_image', methods=['GET', 'POST'])
 def detect_image():
     if request.method == 'POST':
-        file = request.files['image']
-        if file:
-            filename = secure_filename(file.filename)
-            path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(path)
-            results = model.predict(source=path, conf=0.5, verbose=False)
-            result = results[0]
-            annotated = result.plot()
-            save_path = os.path.join(app.config['RESULT_IMAGE'], filename)
-            cv2.imwrite(save_path, annotated)
-            log = {
-                "type": "image",
-                "filename": filename,
-                "saved_path": save_path,
-                "time": datetime.now().isoformat(),
-                "objects": []
-            }
-            for box in result.boxes:
-                cls_id = int(box.cls[0])
-                conf = float(box.conf[0])
-                cls_name = model.names[cls_id]
-                log["objects"].append({"class": cls_name, "conf": round(conf, 3)})
-            save_log(log)
-            return render_template('detect_image.html', image_url=url_for('static', filename=f'results/images/{filename}'), result=log)
+        if 'image_file' not in request.files:
+            return "No file part", 400
+
+        f = request.files['image_file']
+        if f.filename == '':
+            return "No selected file", 400
+
+        path = os.path.join(app.config['UPLOAD_FOLDER'], f.filename)
+        f.save(path)
+
+        results = model.predict(source=path, conf=0.5)
+        result = results[0]
+        annotated = result.plot()
+
+        output_path = os.path.join('static', 'results', f.filename)
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        cv2.imwrite(output_path, annotated)
+
+        details = []
+        for r in result.boxes.data.tolist():
+            cls_id = int(r[5])
+            conf = r[4]
+            cls_name = model.names[cls_id]
+            details.append({'cls': cls_name, 'conf': round(conf, 2)})
+
+        return render_template('detect_image.html', image=output_path, details=details)
+
     return render_template('detect_image.html')
 
-@app.route('/detect/video', methods=['GET', 'POST'])
+@app.route('/detect_video', methods=['GET', 'POST'])
 def detect_video():
     if request.method == 'POST':
-        file = request.files['video']
-        if file:
-            filename = secure_filename(file.filename)
-            path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(path)
-            result_path = os.path.join(app.config['RESULT_VIDEO'], filename)
-            model.predict(source=path, save=True, project=app.config['RESULT_VIDEO'], name='', conf=0.5)
-            log = {
-                "type": "video",
-                "filename": filename,
-                "saved_path": result_path,
-                "time": datetime.now().isoformat()
-            }
-            save_log(log)
-            return render_template('detect_video.html', video_path=url_for('static', filename=f'results/videos/{filename}'), result=log)
+        if 'video_file' not in request.files:
+            return "No video file", 400
+
+        f = request.files['video_file']
+        if f.filename == '':
+            return "No selected file", 400
+
+        save_path = os.path.join(app.config['UPLOAD_FOLDER'], f.filename)
+        f.save(save_path)
+        session['uploaded_video_path'] = save_path
+
+        live_stats['saved_images'] = 0
+        live_stats['class_counter'] = {}
+
+        return redirect(url_for('video_detection_page'))
+
     return render_template('detect_video.html')
+
+def generate_video_frames(video_path):
+    cap = cv2.VideoCapture(video_path)
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        results = model.predict(source=frame, conf=0.5, verbose=False)
+        result = results[0]
+        annotated = result.plot()
+
+        for r in result.boxes.data.tolist():
+            cls_id = int(r[5])
+            conf = r[4]
+            cls_name = model.names[cls_id]
+            if conf > 0.5:
+                live_stats['class_counter'][cls_name] = live_stats['class_counter'].get(cls_name, 0) + 1
+                if cls_name == 'Hardhat':
+                    filename = f"frames/video_{int(time.time())}.jpg"
+                    cv2.imwrite(filename, annotated)
+                    live_stats['saved_images'] += 1
+
+        ret2, jpeg = cv2.imencode('.jpg', annotated)
+        if not ret2:
+            continue
+        yield (b'--frame\r\nContent-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n')
+
+    cap.release()
+
+@app.route('/video_feed_upload')
+def video_feed_upload():
+    path = session.get('uploaded_video_path')
+    if not path:
+        return "No video uploaded", 404
+    return Response(generate_video_frames(path),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/video_detection_page')
+def video_detection_page():
+    return render_template('video_detection_page.html',
+                           saved_images=live_stats['saved_images'],
+                           class_counter=live_stats['class_counter'])
+
+@app.route('/get_video_stats')
+def get_video_stats():
+    return jsonify(live_stats)
 
 @app.route('/records')
 def records():
-    with open(detection_log_path) as f:
-        logs = json.load(f)
-    image_logs = [log for log in logs if log.get("type") == "image" and "saved_path" in log]
-    return render_template('records.html', logs=image_logs)
+    images = []
+    for filename in os.listdir("frames"):
+        if filename.endswith(".jpg"):
+            path = os.path.join("frames", filename)
+            images.append({
+                "filename": filename,
+                "time": time.ctime(os.path.getmtime(path)),
+                "path": path
+            })
+    images.sort(key=lambda x: x["time"], reverse=True)
+    return render_template("records.html", images=images)
 
+@app.route('/frames/<path:filename>')
+def frames_static(filename):
+    return send_from_directory('frames', filename)
 
-# ... 所有路由定义
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,18 +1,18 @@
-{% include 'navbar.html' %}
-
-<h1>图片检测</h1>
-<form method="POST" enctype="multipart/form-data">
-    <input type="file" name="image" accept="image/*">
-    <button type="submit">上传并检测</button>
+{% extends 'base.html' %}
+{% block content %}
+<h2>上传图片进行检测</h2>
+<form method="post" enctype="multipart/form-data">
+  <input type="file" name="image_file" required>
+  <button type="submit">上传并检测</button>
 </form>
 
-{% if image_url %}
-<h2>检测结果</h2>
-<img src="{{ image_url }}" width="600">
-<h3>识别内容</h3>
-<ul>
-    {% for obj in result.objects %}
-    <li>{{ obj.class }} - {{ obj.conf }}</li>
+{% if image %}
+  <h3>检测结果</h3>
+  <img src="{{ url_for('static', filename='results/' + image.split('/')[-1]) }}" alt="检测结果">
+  <ul>
+    {% for d in details %}
+      <li>{{ d.cls }}: {{ d.conf }}</li>
     {% endfor %}
-</ul>
+  </ul>
 {% endif %}
+{% endblock %}

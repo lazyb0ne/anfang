@@ -1,16 +1,12 @@
-{% include 'navbar.html' %}
-
-<h1>检测记录（图片）</h1>
+{% extends 'base.html' %}
+{% block content %}
+<h2>检测记录</h2>
 <ul>
-  {% for log in logs %}
-  <li>
-    <img src="{{ url_for('static', filename='results/images/' + log.filename) }}" width="200">
-    <p>{{ log.filename }}<br>{{ log.time }}</p>
-    <ul>
-      {% for obj in log.objects %}
-      <li>{{ obj.class }} - {{ obj.conf }}</li>
-      {% endfor %}
-    </ul>
-  </li>
+  {% for img in images %}
+    <li>
+      <p>{{ img.filename }} ({{ img.time }})</p>
+      <img src="{{ url_for('static', filename='../' + img.path) }}" alt="{{ img.filename }}" style="max-width: 300px;">
+    </li>
   {% endfor %}
 </ul>
+{% endblock %}
