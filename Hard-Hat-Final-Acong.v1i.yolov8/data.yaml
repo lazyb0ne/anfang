@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['head', 'helmet']
+
+roboflow:
+  workspace: muhammad-rayhan-ylkkb
+  project: hard-hat-final-acong
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-rayhan-ylkkb/hard-hat-final-acong/dataset/1

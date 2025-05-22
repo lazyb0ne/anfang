@@ -4,7 +4,8 @@ import os
 from ultralytics import YOLO
 
 # 加载 YOLOv8 模型（可换 yolov8s.pt / yolov8m.pt）
-model = YOLO("yolov8n.pt")
+# model = YOLO("yolov8n.pt")
+model = YOLO("../web/weights/best100.pt")
 
 # 打开摄像头（0 = 默认摄像头）
 cap = cv2.VideoCapture(0)
