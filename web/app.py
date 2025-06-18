@@ -25,7 +25,7 @@ FRAMES_SAVE_DIR = "frames"
 UPLOADS_DIR = "uploads"
 
 # 截图保存的最小时间间隔（秒），防止频繁保存重复图片
-SAVE_INTERVAL_SECONDS = 3
+SAVE_INTERVAL_SECONDS = 8
 
 # 每行检测记录页面显示的图片数量
 RECORDS_IMAGES_PER_ROW = 5
@@ -225,6 +225,15 @@ def uploaded_file(filename):
 @app.route('/frames/<path:filename>')
 def frames_static(filename):
     return send_from_directory(FRAMES_SAVE_DIR, filename)
+
+
+@app.route('/stats')
+def get_stats():
+    return {
+        "saved_images": saved_images,
+        "unsafe_total": unsafe_total,
+        "class_counter": dict(class_counter)
+    }
 
 
 if __name__ == '__main__':

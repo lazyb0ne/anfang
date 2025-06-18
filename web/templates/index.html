@@ -5,8 +5,8 @@
 
 <h3>实时汇总信息</h3>
 <ul>
-  <li>累计保存画面数量：{{ saved_images }}</li>
-  <li>检测到未戴安全帽人次：{{ unsafe_total }}</li>
+  <li>累计保存画面数量：<span id="saved_images">{{ saved_images }}</span></li>
+  <li>检测到未戴安全帽人次：<span id="unsafe_total">{{ unsafe_total }}</span></li>
 </ul>
 
 <h4>各类检测数量</h4>
@@ -22,4 +22,30 @@
   <li>置信度阈值: {{ yolo_params.conf }}</li>
   <li>类别总数: {{ yolo_params.num_classes }}</li>
 </ul>
+
+<script>
+  function updateStats() {
+    fetch('/stats')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('saved_images').textContent = data.saved_images;
+        document.getElementById('unsafe_total').textContent = data.unsafe_total;
+
+        const classCounterList = document.getElementById('class_counter_list');
+        classCounterList.innerHTML = '';
+        for (const [cls, count] of Object.entries(data.class_counter)) {
+          const li = document.createElement('li');
+          li.textContent = `${cls}: ${count}`;
+          classCounterList.appendChild(li);
+        }
+      })
+      .catch(error => {
+        console.error('更新统计数据失败:', error);
+      });
+  }
+
+  setInterval(updateStats, 3000);  // 每 3 秒刷新
+  updateStats();  // 页面加载后立即刷新一次
+</script>
+
 {% endblock %}

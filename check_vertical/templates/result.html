@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+<head><title>检测结果</title></head>
+<body>
+    <h2>检测结果</h2>
+    <p>主方向角度：{{ angle }}°</p>
+    <img src="{{ url_for('result_file', filename=filename) }}" width="80%">
+    <br><a href="{{ url_for('index') }}">返回重新上传</a>
+</body>
+</html>

@@ -13,9 +13,9 @@
 <body>
   <nav>
     <a href="{{ url_for('index') }}">🏠 首页</a>
-    <a href="{{ url_for('detect_image') }}">🖼 图片检测</a>
-    <a href="{{ url_for('detect_video') }}">🎥 视频检测</a>
-    <a href="{{ url_for('records') }}">📝 检测记录</a>
+    <a target="_blank" href="{{ url_for('detect_image') }}">🖼 图片检测</a>
+    <a target="_blank" href="{{ url_for('detect_video') }}">🎥 视频检测</a>
+    <a target="_blank" href="{{ url_for('records') }}">📝 检测记录</a>
   </nav>
   {% block content %}{% endblock %}
 </body>

@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h3>用户管理</h3>
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>用户名</th>
+      <th>是否管理员</th>
+      <th>图片数量</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in users %}
+    <tr>
+      <td>{{ user.username }}</td>
+      <td>{{ '是' if user.is_admin else '否' }}</td>
+      <td>{{ user.image_count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

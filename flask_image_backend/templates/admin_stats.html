@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h3>上传汇总信息</h3>
+<div class="row mb-4">
+  <div class="col-md-4">
+    <div class="card text-white bg-primary">
+      <div class="card-body">
+        <h5 class="card-title">用户总数</h5>
+        <p class="card-text fs-3">{{ user_count }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-white bg-success">
+      <div class="card-body">
+        <h5 class="card-title">图片总数</h5>
+        <p class="card-text fs-3">{{ image_count }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5 class="mt-4">每日上传数量</h5>
+<canvas id="dailyChart" height="120"></canvas>
+
+<h5 class="mt-4">分类上传数量</h5>
+<canvas id="categoryChart" height="120"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const dailyCtx = document.getElementById('dailyChart').getContext('2d');
+  new Chart(dailyCtx, {
+    type: 'line',
+    data: {
+      labels: {{ daily_labels|tojson }},
+      datasets: [{
+        label: '每日上传',
+        data: {{ daily_counts|tojson }},
+        borderColor: 'blue',
+        fill: false,
+        tension: 0.3
+      }]
+    }
+  });
+
+  const categoryCtx = document.getElementById('categoryChart').getContext('2d');
+  new Chart(categoryCtx, {
+    type: 'bar',
+    data: {
+      labels: {{ category_labels|tojson }},
+      datasets: [{
+        label: '分类上传',
+        data: {{ category_counts|tojson }},
+        backgroundColor: 'rgba(0,123,255,0.6)'
+      }]
+    }
+  });
+</script>
+{% endblock %}

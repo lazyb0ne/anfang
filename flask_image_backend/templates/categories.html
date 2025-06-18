@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <h3>分类管理</h3>
+  <form method="post" class="row g-3 mb-4">
+    <div class="col-auto">
+      <input type="text" name="name" class="form-control" placeholder="新建分类名" required>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">添加分类</button>
+    </div>
+  </form>
+
+  <table class="table">
+    <thead>
+      <tr><th>ID</th><th>名称</th><th>操作</th></tr>
+    </thead>
+    <tbody>
+      {% for category in categories %}
+      <tr>
+        <td>{{ category.id }}</td>
+        <td>{{ category.name }}</td>
+        <td>
+          <form method="post" action="/categories/delete/{{ category.id }}" onsubmit="return confirm('确定删除？')">
+            <button class="btn btn-sm btn-danger">删除</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

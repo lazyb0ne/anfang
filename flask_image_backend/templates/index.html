@@ -1,0 +1,87 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <h3>图片列表</h3>
+
+  <form method="get" class="mb-3 row g-2 align-items-center">
+    <div class="col-auto">
+      <label for="per_page" class="col-form-label">每页显示数量：</label>
+    </div>
+    <div class="col-auto">
+      <select class="form-select" name="per_page" onchange="this.form.submit()">
+        {% for option in [10, 50, 100] %}
+          <option value="{{ option }}" {% if images.per_page == option %}selected{% endif %}>{{ option }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </form>
+<form method="get" class="row g-3 mb-3">
+    <div class="col-auto">
+      <select name="category_id" class="form-select">
+        <option value="">全部分类</option>
+        {% for cat in categories %}
+          <option value="{{ cat.id }}" {% if request.args.get('category_id')|int == cat.id %}selected{% endif %}>{{ cat.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    {% if current_user.is_admin %}
+    <div class="col-auto">
+      <select name="user_id" class="form-select">
+        <option value="">全部用户</option>
+        {% for user in users %}
+          <option value="{{ user.id }}" {% if request.args.get('user_id')|int == user.id %}selected{% endif %}>{{ user.username }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    {% endif %}
+    <div class="col-auto">
+      <input type="date" name="start_date" class="form-control" value="{{ request.args.get('start_date') }}">
+    </div>
+    <div class="col-auto">
+      <input type="date" name="end_date" class="form-control" value="{{ request.args.get('end_date') }}">
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-outline-primary">筛选</button>
+    </div>
+  </form>
+
+  <form method="post" action="/batch_delete" onsubmit="return confirm('确认删除选中的图片吗？')">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
+      {% for image in images.items %}
+      <div class="col">
+        <div class="card h-100">
+          <a href="{{ url_for('view_image', image_id=image.id) }}" target="_blank">
+            <img src="{{ url_for('static', filename='thumbs/' + image.filename) }}" class="card-img-top" alt="缩略图">
+          </a>
+          <div class="card-body p-2">
+            <small class="text-muted d-block">{{ image.filename }}</small>
+            <small class="text-muted">{{ image.category.name if image.category else '未分类' }}</small><br>
+            <small class="text-muted">用户：{{ image.user.username }}</small><br>
+            <small class="text-muted">时间：{{ image.timestamp.strftime('%Y-%m-%d %H:%M') }}</small>
+          </div>
+          <div class="card-footer text-center p-2">
+            <input type="checkbox" name="image_ids" value="{{ image.id }}">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="mt-4 text-center">
+      <button type="submit" class="btn btn-danger">批量删除</button>
+    </div>
+  </form>
+
+  <nav class="mt-4">
+    <ul class="pagination justify-content-center">
+      {% if images.has_prev %}
+        <li class="page-item"><a class="page-link" href="?page=1&per_page={{ images.per_page }}">首页</a></li>
+        <li class="page-item"><a class="page-link" href="?page={{ images.prev_num }}&per_page={{ images.per_page }}">上一页</a></li>
+      {% endif %}
+      <li class="page-item disabled"><a class="page-link">第 {{ images.page }} 页</a></li>
+      {% if images.has_next %}
+        <li class="page-item"><a class="page-link" href="?page={{ images.next_num }}&per_page={{ images.per_page }}">下一页</a></li>
+        <li class="page-item"><a class="page-link" href="?page={{ images.pages }}&per_page={{ images.per_page }}">末页</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+{% endblock %}
