@@ -109,9 +109,7 @@ def upload():
 
     categories = Category.query.all()
     return render_template('upload.html', categories=categories)
-    categories = Category.query.all()
-    return render_template('upload.html', categories=categories)
-    return render_template('upload.html', categories=categories)
+
 
 @app.route('/view/<int:image_id>')
 @login_required
@@ -216,34 +214,50 @@ def admin_stats():
     category_labels = [row[0] for row in category_data]
     category_counts = [row[1] for row in category_data]
 
+
+    # 计算图片总大小（单位：GB）
+    import os
+    from models import Image
+    total_size_bytes = 0
+    for image in Image.query.all():
+        img_path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
+        if os.path.exists(img_path):
+            total_size_bytes += os.path.getsize(img_path)
+    total_size_gb = round(total_size_bytes / (1024 ** 3), 2)
+    print(f"[统计] 图片总大小：{total_size_gb} 字节 ≈ {total_size_bytes}")
     return render_template('admin_stats.html',
         user_count=user_count,
         image_count=image_count,
         daily_labels=daily_labels,
         daily_counts=daily_counts,
         category_labels=category_labels,
-        category_counts=category_counts
+        category_counts=category_counts,
+        total_size_readable=total_size_gb
     )
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
 @app.route('/batch_delete', methods=['POST'])
 @login_required
 def batch_delete():
-    ids = request.form.getlist('image_ids')
-    if not ids:
-        flash("未选择图片")
-        return redirect(url_for('index'))
-    images = Image.query.filter(Image.id.in_(ids))
-    for image in images:
-        # 管理员可删所有，普通用户仅删自己图
-        if current_user.is_admin or image.user_id == current_user.id:
-            try:
-                os.remove(os.path.join(app.config['UPLOAD_FOLDER'], image.filename))
-                os.remove(os.path.join('static/thumbs', image.filename))
-            except:
-                pass
+    from models import Image
+    import os
+    print("[删除] 路由已命中")
+    ids = request.form.getlist('delete_ids')
+    print(f"[批量删除] 请求删除图片 ID: {ids}")
+    for img_id in ids:
+        image = Image.query.get(int(img_id))
+        if image:
+            path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
+            if os.path.exists(path):
+                os.remove(path)
+            thumb_path = os.path.join('static/thumbs', image.filename)
+            if os.path.exists(thumb_path):
+                os.remove(thumb_path)
             db.session.delete(image)
     db.session.commit()
-    flash("已删除选中图片")
+    flash("批量删除成功")
     return redirect(url_for('index'))
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
